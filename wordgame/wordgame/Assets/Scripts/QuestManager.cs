@@ -9,6 +9,8 @@ public class QuestManager : MonoBehaviour
 
     public StageUIManager stageUI;
 
+    public GameObject enemyPrefab;
+
     int[] encountTable = { -1, -1, 0, -1, 0, -1 };
 
 
@@ -34,9 +36,17 @@ public class QuestManager : MonoBehaviour
 
         else if (encountTable[currentStage] == 0)
         {
-            Debug.Log("敵に遭遇");
+            EncounterEnemy();
 
         }
+
+
+    }
+
+    void EncounterEnemy()
+    {
+        stageUI.HideButtons();
+        Instantiate(enemyPrefab);
 
 
     }
