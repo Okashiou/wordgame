@@ -864,6 +864,7 @@ MonoBehaviour:
   stageUI: {fileID: 2125791315}
   enemyPrefab: {fileID: 1949440042819783551, guid: 6dcfbfb95253a8945b732580815ca730,
     type: 3}
+  battleManager: {fileID: 1972091855}
 --- !u!4 &1358559677
 Transform:
   m_ObjectHideFlags: 0
@@ -1207,10 +1208,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1129e5937cd8174a9280cfbce1be28c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  questManager: {fileID: 1358559676}
   playerUI: {fileID: 729233828}
   enemyUI: {fileID: 2092190965}
   player: {fileID: 518027222}
-  enemy: {fileID: 107820978}
 --- !u!4 &1972091856
 Transform:
   m_ObjectHideFlags: 0

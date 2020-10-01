@@ -150,3 +150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669ad6159a8007249a37ab04da1b5f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  name: neko
+  hp: 80
+  at: 3
