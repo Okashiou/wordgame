@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 7.2000003
-    y: 51.2
+    x: 36
+    y: 67.200005
     width: 1521.6
     height: 765.60004
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -150,7 +150,7 @@ MonoBehaviour:
     y: 0
     width: 1522
     height: 766
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -293,8 +293,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 7.2000003
-    y: 524
+    x: 0
+    y: 462
     width: 1212
     height: 252
   m_ViewDataDictionary: {fileID: 0}
@@ -311,20 +311,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Image
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Image
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\asuka\Documents\wordgame\wordgame\wordgame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9a390000
-    m_LastClickedID: 14746
-    m_ExpandedIDs: 0000000086390000
+    m_SelectedIDs: 9a4b0000
+    m_LastClickedID: 19354
+    m_ExpandedIDs: 00000000863900009e3900009a4b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -340,7 +340,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -379,7 +379,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -429,8 +429,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1220
-    y: 81.6
+    x: 1248.8
+    y: 97.6
     width: 307
     height: 695
   m_ViewDataDictionary: {fileID: 0}
@@ -467,17 +467,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 7.2000003
-    y: 81.6
+    x: 36
+    y: 97.6
     width: 299
     height: 422
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1e390000
-      m_LastClickedID: 14622
-      m_ExpandedIDs: 6afbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: bce8ffff2ef0ffff4cf0ffff14f2ffff76f4ffffaaf4fffff8f4ffff14f5ffffd2f5ffff66f7ffffa0f7ffffb6f8ffff60f9ffff1efaffff28faffff6afbffff963f0000d6460000f2460000fc460000544700006e470000104800003a490000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -522,8 +522,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 352.80002
-    y: 63.2
+    x: 306.4
+    y: 112.8
     width: 911
     height: 422
   m_ViewDataDictionary: {fileID: 0}
@@ -537,9 +537,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 87.81845, y: 928.2963, z: -480.15}
+    m_Target: {x: -141.14606, y: 765.5017, z: -544.24115}
     speed: 2
-    m_Value: {x: 87.81845, y: 928.2963, z: -480.15}
+    m_Value: {x: -141.14606, y: 765.5017, z: -544.24115}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -589,9 +589,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1066.215
+    m_Target: 1377.5123
     speed: 2
-    m_Value: 1066.215
+    m_Value: 1377.5123
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -637,8 +637,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 307.2
-    y: 81.6
+    x: 301
+    y: 19
     width: 911
     height: 422
   m_ViewDataDictionary: {fileID: 0}
